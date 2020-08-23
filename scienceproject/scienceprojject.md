@@ -18,21 +18,21 @@ I chose to do my project on the Great Plains because of how little I knew about 
 
 ## The Animals
 + Bison - Please tell me you know what a Bison is
-![Bison](Images/bison.jpg)
+![Bison](scienceproject/Images/bison.jpg)
 + Black-Footed Ferrots - Only about 300 of these ferrets remain in the Great Plains
 + Pronghorn - The fastest land animals in North America, similiar in looks to a deer
 + Greater Sage Gouse - A kind of bird with tail feathers similar to a peacock
-![Sage Grouse](Images/birdthing.jpg)
+![Sage Grouse](scienceproject/Images/birdthing.jpg)
 + Mountain Plover - A small, white bird refered to as a "Prairie Ghost"
 
 ## The Plants
 + Forbs - A non-graminoid[^1]
 + Yucca - A genus or perennial shrubs consisting of 40-50 different species
 
-![Yucca](Images/yucca.jpg)
+![Yucca](scienceproject/Images/yucca.jpg)
 + Prickly Pear - A kind of cactus
 
-![Prickly Pear](Images/pricklypear.jpg)
+![Prickly Pear](scienceproject/Images/pricklypear.jpg)
 + Mesquite - A name used for multiple plants in the genus Prosopis, consisting of over 40 species
 + Sagebrush - A name used for multiple herbaceus[^2] and "woody" species of plants, all in the genus Artemisia.
 
@@ -42,14 +42,14 @@ According to the first website that came up when I googled it, the biggest threa
 
 1984:
 
-![Before](Images/beforethreat.jpg)
+![Before](scienceproject/Images/beforethreat.jpg)
 
 2016:
 
-![After](Images/afterthreat.jpg)
+![After](scienceproject/Images/afterthreat.jpg)
 
 ## Visitation
-![The Great Plains](Images/tehgrateplens.jpg)
+![The Great Plains](scienceproject/Images/tehgrateplens.jpg)
 ###### me in the great plains ^^
 
 As of now, there is no reason whatsoever to travel to the Great Plains, as the current situation in America puts you at a severe risk of death, considering the coronavirus. If you *do* feel like risking your life then there are many reasons to visit the Great Plains. Some of these reasons include:
@@ -57,10 +57,10 @@ As of now, there is no reason whatsoever to travel to the Great Plains, as the c
 + Lots of space - Have you ever felt like you need more elbow room to do things? Well, I sure haven't, but in the case that you do, there is a ton of room in the Great Plains.
 + Hunting & Poaching - There are lots of animals in the Great Plains, which as you might have expected can net you quite a bit of money.[^3]
 + Walk around aimlessly - Sure, you might get lost, but its pretty peaceful to just walk around in the Great Plains.
-+ Walk around and look at this cool place ↓ ![this place](Images/thisplace.jpg)
++ Walk around and look at this cool place ↓ ![this place](scienceproject/Images/thisplace.jpg)
 + Visit Mt. Rushmore - I mean, who *wouldn't* want to go see a big cliff with people's faces carved into it.
 + Visit a Corn Palace - For some reason, people thought it might be a cool idea to build lots of murals out of corn.
-![Corn Murals](Images/cornmurals.jpg)
+![Corn Murals](scienceproject/Images/cornmurals.jpg)
 
 ## Sources
 + [here](https://www.worldwildlife.org/stories/animals-of-the-northern-great-plains)
