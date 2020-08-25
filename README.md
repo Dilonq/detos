@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-# Hi
-## Dylan Harris
-
-What are you looking for?
-<details>
-<summary>Science Project - The Great Plains</summary>
-Please go to www.detos.net/scienceproject/scienceprojject.md
-</details>
-Thats all we have right now, actually.
-=======
 # Science Ecosystems - Great Plains
 ## Dylan Harris
 ### because who would buy a domain just to make a science project
