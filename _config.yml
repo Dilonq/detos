@@ -1,2 +1,6 @@
 name: detos
 title: null
+
+pages:
+  markdown:
+    extra: true
