@@ -150,7 +150,6 @@ function collisionDetection() {
                         alert("yay you win now go play outside");
                         start = false;
                         ResetVars();
-                        speed = speed + 1;
                         document.location.reload();
                         clearInterval(interval); // Needed for Chrome to end game
                     }
