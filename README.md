@@ -8,6 +8,7 @@
 <p style="text-align: center;"><span style="font-size:1em;"><a target="_blank" href="https://discord.gg/sAtBJma"><img src="imgs/discordicon.png" alt="Discord Link" width="34" height="26"><a target="_blank" href="https://www.reddit.com/user/Inckog"><img src="imgs/redditicon.png" alt="Reddit Link" width="38" height="32"></a>
 
 <!-- Breakout game -->
+<p style="text-align: center;"><button onclick="Start()">Start</button></p>
 <head>
     <meta charset="utf-8" />
     <title>Gamedev Canvas Workshop</title>
@@ -57,11 +58,27 @@ for(var c=0; c<brickColumnCount; c++) {
     }
 }
 
+var score = 0;
+var start = false;
+
+function ResetVars(){
+    x = canvas.width/2;
+    y = canvas.height-30;
+
+    bricks = [];
+    for(var c=0; c<brickColumnCount; c++) {
+        bricks[c] = [];
+        for(var r=0; r<brickRowCount; r++) {
+            bricks[c][r] = { x: 0, y: 0, status: 1 };
+        }
+    }
+
+    score = 0;
+}
+
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 document.addEventListener("mousemove", mouseMoveHandler, false);
-
-var score = 0;
 
 function keyDownHandler(e) {
     if(e.key == "Right" || e.key == "ArrowRight") {
@@ -126,6 +143,8 @@ function collisionDetection() {
                     score++;
                     if(score == brickRowCount*brickColumnCount) {
                         alert("YOU WIN, CONGRATULATIONS!");
+                        start = false;
+                        ResetVars();
                         document.location.reload();
                         clearInterval(interval); // Needed for Chrome to end game
                     }
@@ -148,46 +167,54 @@ function mouseMoveHandler(e) {
     }
 }
 
+function Start(){
+    ResetVars();
+    start = true;
+}
+
 function draw() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    drawPaddle();
-    drawBall();
-    drawBricks();
-    collisionDetection();
-    drawScore();
+    if (start == true){
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        drawPaddle();
+        drawBall();
+        drawBricks();
+        collisionDetection();
+        drawScore();
 
-    if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
-        dx = -dx;
-    }
-    if(y + dy < ballRadius) {
-        dy = -dy;
-    } else if(y + dy > canvas.height-ballRadius) {
-        if(x > paddleX && x < paddleX + paddleWidth) {
+        if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
+            dx = -dx;
+        }
+        if(y + dy < ballRadius) {
             dy = -dy;
+        } else if(y + dy > canvas.height-ballRadius) {
+            if(x > paddleX && x < paddleX + paddleWidth) {
+                dy = -dy;
+            }
+            else {
+                alert("GAME OVER");
+                document.location.reload();
+                clearInterval(interval);
+                start = false;
+                ResetVars();
+            }
         }
-        else {
-            alert("GAME OVER");
-            document.location.reload();
-            clearInterval(interval);
-        }
-    }
 
-    if(rightPressed) {
-        paddleX += 7;
-        if (paddleX + paddleWidth > canvas.width){
-            paddleX = canvas.width - paddleWidth;
+        if(rightPressed) {
+            paddleX += 7;
+            if (paddleX + paddleWidth > canvas.width){
+                paddleX = canvas.width - paddleWidth;
+            }
         }
-    }
-    else if(leftPressed) {
-        paddleX -= 7;
-        if (paddleX < 0){
-            paddleX = 0;
+        else if(leftPressed) {
+            paddleX -= 7;
+            if (paddleX < 0){
+                paddleX = 0;
+            }
         }
+        
+        x += dx;
+        y += dy;
     }
-    
-    x += dx;
-    y += dy;
-
 }
 var interval = setInterval(draw, 10);
 
