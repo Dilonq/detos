@@ -1,11 +1,12 @@
-
 <html>
 <!-- Spin Gif -->
 <p style="text-align: center;"><img src="imgs/spin.gif" alt="construction img"></p>
 <!-- Site not done message -->
 <p style="text-align: center;"><span style="font-size:1em;">Sites not done yet, but you can play a game while you wait</span></p>
 <!-- Reddit and Discord links -->
-<p style="text-align: center;"><span style="font-size:1em;"><a target="_blank" href="https://discord.gg/sAtBJma"><img src="imgs/discordicon.png" alt="Discord Link" width="34" height="26"><a target="_blank" href="https://www.reddit.com/user/Inckog"><img src="imgs/redditicon.png" alt="Reddit Link" width="38" height="32"></a>
+<p style="text-align: center;"><span style="font-size:1em;"><a target="_blank" href="https://www.reddit.com/user/Inckog"><img src="imgs/redditicon.png" alt="Reddit Link" width="38" height="32"></a>
+
+<!-- <p style="text-align: center;"><span style="font-size:1em;"><a target="_blank" href="https://discord.gg/sAtBJma"><img src="imgs/discordicon.png" alt="Discord Link" width="34" height="26"><a target="_blank" href="https://www.reddit.com/user/Inckog"><img src="imgs/redditicon.png" alt="Reddit Link" width="38" height="32"></a> -->
 
 <!-- Breakout game -->
 <p style="text-align: center;"><button onclick="Start()">Start</button></p>
@@ -26,8 +27,6 @@
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 // game variables
-var speed = 2;
-
 var x = canvas.width/2;
 var y = canvas.height-30;
 
@@ -38,6 +37,7 @@ var paddleX = (canvas.width-paddleWidth) / 2;
 
 var ballRadius = 10;
 
+var speed = 2;
 var dx = speed;
 var dy = 0-speed;
 
@@ -147,8 +147,8 @@ function collisionDetection() {
                     b.status = 0;
                     score++;
                     if(score == brickRowCount*brickColumnCount) {
-                        alert("yay you win");
-                        speed = speed + 1
+                        alert("yay you win now go play outside");
+                        speed ++;
                         start = false;
                         ResetVars();
                         document.location.reload();
@@ -197,7 +197,6 @@ function draw() {
                 dy = -dy;
             }
             else {
-                alert("GAME OVER");
                 document.location.reload();
                 clearInterval(interval);
                 start = false;
