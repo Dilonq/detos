@@ -148,9 +148,9 @@ function collisionDetection() {
                     score++;
                     if(score == brickRowCount*brickColumnCount) {
                         alert("yay you win now go play outside");
-                        speed = speed + 1;
                         start = false;
                         ResetVars();
+                        speed = speed + 1;
                         document.location.reload();
                         clearInterval(interval); // Needed for Chrome to end game
                     }
