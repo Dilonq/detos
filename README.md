@@ -142,7 +142,7 @@ function collisionDetection() {
                     b.status = 0;
                     score++;
                     if(score == brickRowCount*brickColumnCount) {
-                        alert("YOU WIN, CONGRATULATIONS!");
+                        alert("yay you win now go play outside");
                         start = false;
                         ResetVars();
                         document.location.reload();
@@ -191,7 +191,6 @@ function draw() {
                 dy = -dy;
             }
             else {
-                alert("GAME OVER");
                 document.location.reload();
                 clearInterval(interval);
                 start = false;
