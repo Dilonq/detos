@@ -176,7 +176,7 @@ function drawScore() {
 function mouseMoveHandler(e) {
     var relativeX = e.clientX - canvas.offsetLeft;
     if(relativeX > 0 && relativeX < canvas.width) {
-        paddleX = relativeX - paddleWidth;
+        paddleX = relativeX - paddleWidth/2;
     }
 }
 
@@ -240,3 +240,7 @@ var interval = setInterval(draw, 10);
 </script>
 
 </body>
+
+<!-- controls -->
+<p style="text-align: center;"><span style="font-size:1em;">Hit start to play</span></p>
+<p style="text-align: center;"><span style="font-size:1em;">Move with mouse or arrow keys</span></p>
