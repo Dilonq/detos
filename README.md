@@ -12,7 +12,7 @@
 <p style="text-align: center;"><button onclick="Start()">Start</button></p>
 <head>
     <meta charset="utf-8" />
-    <title>Gamedev Canvas Workshop</title>
+    <title>Breakout</title>
     <style>  
         * { padding: 0; margin: 0; }
         canvas { background: #eee; display: block; margin: 0 auto; }
