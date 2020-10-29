@@ -13,7 +13,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Gamedev Canvas Workshop</title>
-    <style>
+    <style>  
         * { padding: 0; margin: 0; }
         canvas { background: #eee; display: block; margin: 0 auto; }
     </style>
@@ -241,6 +241,3 @@ var interval = setInterval(draw, 10);
 
 </body>
 
-<!-- controls -->
-<p style="text-align: center;"><span style="font-size:1em;">Hit start to play</span></p>
-<p style="text-align: center;"><span style="font-size:1em;">Move with mouse or arrow keys</span></p>
