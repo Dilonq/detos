@@ -1,17 +1,4 @@
 <html>
-
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-<div class="tab">
-<button class="tablinks" onclick="openTab(event, 'home')" id="defaultOpen">Home</button>
-<button class="tablinks" onclick="openTab(event, 'breakout')">Play a Game</button>
-<button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
-</div>
-
-<div id="home" class="tabcontent">
-
 <!-- Spin Gif -->
 <p style="text-align: center;"><img src="imgs/spin.gif" alt="construction img"></p>
 <!-- Site not done message -->
@@ -20,10 +7,6 @@
 <p style="text-align: center;"><span style="font-size:1em;"><a target="_blank" href="https://www.reddit.com/user/Inckog"><img src="imgs/redditicon.png" alt="Reddit Link" width="38" height="32"></a>
 
 <!-- <p style="text-align: center;"><span style="font-size:1em;"><a target="_blank" href="https://discord.gg/sAtBJma"><img src="imgs/discordicon.png" alt="Discord Link" width="34" height="26"><a target="_blank" href="https://www.reddit.com/user/Inckog"><img src="imgs/redditicon.png" alt="Reddit Link" width="38" height="32"></a> -->
-
-</div>
-
-<div id="breakout" class="tabcontent">
 
 <!-- Breakout game -->
 <p style="text-align: center;"><button onclick="Start()">Start</button></p>
@@ -258,30 +241,3 @@ var interval = setInterval(draw, 10);
 
 </body>
 
-</div>
-
-<div id="Tokyo" class="tabcontent">
-<h3>Tokyo</h3>
-<p>Tokyo is the capital of Japan.</p>
-</div>
-
-<script>
-function openTab(evt, tabName) {
-var i, tabcontent, tablinks;
-tabcontent = document.getElementsByClassName("tabcontent");
-for (i = 0; i < tabcontent.length; i++) {
-tabcontent[i].style.display = "none";
-}
-tablinks = document.getElementsByClassName("tablinks");
-for (i = 0; i < tablinks.length; i++) {
-tablinks[i].className = tablinks[i].className.replace(" active", "");
-}
-document.getElementById(tabName).style.display = "block";
-evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-</body>
