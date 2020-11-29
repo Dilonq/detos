@@ -2,13 +2,16 @@
 <!-- Spin Gif -->
 <p style="text-align: center;"><img src="imgs/spin.gif" alt="construction img"></p>
 <!-- Site not done message -->
-<p style="text-align: center;"><span style="font-size:1em;">Sites not done yet, but you can play a game while you wait</span></p>
+<p style="text-align: center;"><span style="font-size:1em;">Sites not done yet</span></p>
 <!-- Reddit and Discord links -->
 <!-- <p style="text-align: center;"><span style="font-size:1em;"><a target="_blank" href="https://www.reddit.com/user/Inckog"><img src="imgs/redditicon.png" alt="Reddit Link" width="38" height="32"></a> -->
 
 <!-- <p style="text-align: center;"><span style="font-size:1em;"><a target="_blank" href="https://discord.gg/sAtBJma"><img src="imgs/discordicon.png" alt="Discord Link" width="34" height="26"><a target="_blank" href="https://www.reddit.com/user/Inckog"><img src="imgs/redditicon.png" alt="Reddit Link" width="38" height="32"></a> -->
 
-<!-- Breakout game -->
+<!-- About Me Stuff -->
+<p style="text-align: center;"><span style="font-size:1em;"><a href="/info/aboutme.md">About Me</a></span></p>
+
+<!-- Breakout game
 <p style="text-align: center;"><button onclick="Start()">Start</button></p>
 <head>
     <meta charset="utf-8" />
@@ -239,5 +242,5 @@ var interval = setInterval(draw, 10);
 
 </script>
 
-</body>
+</body> -->
 
