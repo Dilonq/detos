@@ -1,3 +1,6 @@
+---
+permalink: /info/about.html
+---
 <p style="text-align: center">
     <span style="font-size:1em">Not Finished</span>
 </p>
