@@ -5,6 +5,6 @@
 <!-- Home link -->
 <p style="text-align: center">
     <span style="font-size:1em">
-        <a href="README.md">Home</a>
+        <a href="https://www.detos.net/">Home</a>
     </span>
 </p>
