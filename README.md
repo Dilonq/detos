@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <!-- Spin Gif -->
 <p style="text-align: center;"><img src="imgs/spin.gif" alt="construction img"></p>
