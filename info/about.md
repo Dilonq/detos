@@ -1,12 +1,21 @@
-<!-- Unfinished message -->
+<!-- ChairSpin Gif -->
+<p style="text-align: center">
+    <img src="/imgs/404.png" alt="404.png">
+</p>
+<!-- 404 message -->
+<p style="text-align: center">
+    <span style="font-size:3em">
+        404
+    </span>
+</p>
 <p style="text-align: center">
     <span style="font-size:1em">
-        Page Not Done
+        This page doesn't exist
     </span>
 </p>
 <!-- Home link -->
 <p style="text-align: center">
-    <a href="../README.md">
+    <a href="https://www.detos.net/">
         Home
     </a>
 </p>
