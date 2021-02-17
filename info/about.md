@@ -1,4 +1,4 @@
-<!-- REFER TO THIS AS ABOUT.HTML INSTEAD OF ABOUT.MD, NO IDEA WHY -->
+<!-- REFER TO THIS AS ABOUT.HTML INSTEAD OF ABOUT.MD, NO IDEA WHY 😭-->
 
 <!-- Unfinished message -->
 <p style="text-align: center">
