@@ -11,7 +11,7 @@
 <!-- About Me Stuff -->
 <p style="text-align: center;"><span style="font-size:1em;"><a href="info/aboutme.html">About Me</a></span></p>
 
-<!-- Breakout game
+<!-- Breakout game -->
 <p style="text-align: center;"><button onclick="Start()">Start</button></p>
 <head>
     <meta charset="utf-8" />
@@ -158,7 +158,7 @@ function collisionDetection() {
                     b.status = 0;
                     score++;
                     if(score == brickRowCount*brickColumnCount) {
-                        alert("yay you win now go play outside");
+                        alert("thanks for playing!");
                         start = false;
                         ResetVars();
                         document.location.reload();
@@ -242,5 +242,5 @@ var interval = setInterval(draw, 10);
 
 </script>
 
-</body> -->
+</body>
 
