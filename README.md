@@ -7,7 +7,7 @@
 <!-- About Me Stuff -->
 <p style="text-align: center">
     <span style="font-size:1em">
-        <a href="info/about.md">
+        <a href="info/about.html">
             About Me
         </a>
     </span>
