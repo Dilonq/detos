@@ -1,3 +1,5 @@
+<!-- refer to this as about.html because thats the only way it works =( -->
+
 <!-- About Me stuff -->
 <p style="text-align: center">
     <span style="font-size:1em">
