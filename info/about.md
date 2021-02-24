@@ -18,7 +18,7 @@
 </p>
 <p style="text-align: center">
     <span style="font-size:1em">
-        • I can program in Python, Lua, Javascript, C#, PHP,<a href="#note1" id="ref1" title="It counts ;D"> and HTML</a></sup>
+        • I can program in Python, Lua, Javascript, C#, PHP,<a href="#note1" id="ref1" title="It counts ;D"> and HTML</a>
     </span>
 </p>
 <!-- Home link -->
