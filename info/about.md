@@ -3,22 +3,17 @@
 <!-- About Me stuff -->
 <p style="text-align: center">
     <span style="font-size:1em">
-        My Name is [REDACTED]
-    </span>
-</p>
-<p style="text-align: center">
-    <span style="font-size:1em">
-        • I can't add 2+2
-    </span>
-</p>
-<p style="text-align: center">
-    <span style="font-size:1em">
         • I am currently failing English
     </span>
 </p>
 <p style="text-align: center">
     <span style="font-size:1em">
-        • I can program in Python, Lua, Javascript, C#, PHP,<a href="#note1" id="ref1" title="It counts ;D"> and HTML</a>
+        • I can program in Python, Lua, Assembly,<a href="#note1" id="ref1" title="It counts ;D"> and HTML</a>
+    </span>
+</p>
+<p style="text-align: center">
+    <span style="font-size:1em">
+        • I really really do not like working with Lua
     </span>
 </p>
 <!-- Home link -->
