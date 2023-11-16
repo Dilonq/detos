@@ -1,0 +1,50 @@
+body, header, nav, article, main, footer, ul, li, a{
+    padding: 1rem 1rem;
+    margin: 0rem 1rem;
+
+    list-style-position: inside;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+nav {
+    padding: 0rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0rem;
+    list-style-type: none;
+}
+
+header {
+    border-radius: 1rem 1rem 0rem 0rem;
+    font-size: 3rem;
+
+    background-color:coral;
+    color:cornflowerblue;
+    font-weight: bolder;
+    /* font-size: 2rem; */
+    /* letter-spacing: -0.2rem; */
+}
+
+footer {
+    border-radius: 0rem 0rem 1rem 1rem;
+    background-color: gainsboro;
+    color: darkgray;
+}
+
+nav {
+    background-color: cornflowerblue;
+}
+
+nav a {
+    color: coral;
+}
+
+nav a:hover {
+    color:orangered;
+}
